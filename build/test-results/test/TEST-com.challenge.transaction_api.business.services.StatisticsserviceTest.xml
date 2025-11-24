@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.challenge.transaction_api.business.services.StatisticsserviceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-20T15:20:21.807Z" hostname="LAPTOP-PLOR8DAO" time="0.025">
+  <properties/>
+  <testcase name="testEmptyTransactions()" classname="com.challenge.transaction_api.business.services.StatisticsserviceTest" time="0.012"/>
+  <testcase name="testSingleTransaction()" classname="com.challenge.transaction_api.business.services.StatisticsserviceTest" time="0.012"/>
+  <system-out><![CDATA[2025-11-20T12:20:21.808-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.Statisticsservice       : Started processing statistics calculation: 60
+2025-11-20T12:20:21.812-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.TransactionService      : Started processing transaction get: 60
+2025-11-20T12:20:21.812-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.TransactionService      : Cutoff date/time: 2025-11-20T12:19:21.812257-03:00
+2025-11-20T12:20:21.813-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.Statisticsservice       : No transactions found for interval 60 -> returning zeros
+2025-11-20T12:20:21.821-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.TransactionService      : Started processing transaction save: TransactionRequestDTO[value=0.1, dateTime=2025-11-20T12:20:21.821328300-03:00]
+2025-11-20T12:20:21.824-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.TransactionService      : Transaction added successfully
+2025-11-20T12:20:21.824-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.Statisticsservice       : Started processing statistics calculation: 60
+2025-11-20T12:20:21.824-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.TransactionService      : Started processing transaction get: 60
+2025-11-20T12:20:21.824-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.TransactionService      : Cutoff date/time: 2025-11-20T12:19:21.824539800-03:00
+2025-11-20T12:20:21.825-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.Statisticsservice       : Cutoff: 2025-11-20T12:19:21.824539800-03:00, transactions.size()=1
+2025-11-20T12:20:21.826-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.Statisticsservice       : Valid numeric values count after filtering: 1
+2025-11-20T12:20:21.831-03:00  INFO 26448 --- [transaction-api] [    Test worker] c.c.t.b.services.Statisticsservice       : Aggregates computed: count=1, avg=0.1, min=0.1, max=0.1, sum=0.1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
